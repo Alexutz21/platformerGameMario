@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 1024553287}
   - component: {fileID: 1024553286}
   - component: {fileID: 1024553285}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PlatformTilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40776,29 +40776,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1922915176}
     m_Modifications:
-    - target: {fileID: 1443403165, guid: b9a8ba1347b80da45b68116ba71a01ea, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1443403165, guid: b9a8ba1347b80da45b68116ba71a01ea, type: 3}
-      propertyPath: m_GravityScale
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1443403165, guid: b9a8ba1347b80da45b68116ba71a01ea, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1459225456672772632, guid: b9a8ba1347b80da45b68116ba71a01ea, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1459225456672772632, guid: b9a8ba1347b80da45b68116ba71a01ea, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1459225456672772632, guid: b9a8ba1347b80da45b68116ba71a01ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -52.67
+      value: -52.65
       objectReference: {fileID: 0}
     - target: {fileID: 1459225456672772632, guid: b9a8ba1347b80da45b68116ba71a01ea, type: 3}
       propertyPath: m_LocalPosition.y
@@ -40840,18 +40824,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZaPleyaElvis
       objectReference: {fileID: 0}
-    - target: {fileID: 1459225456672772635, guid: b9a8ba1347b80da45b68116ba71a01ea, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4749559348890154313, guid: b9a8ba1347b80da45b68116ba71a01ea, type: 3}
-      propertyPath: runSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4749559348890154313, guid: b9a8ba1347b80da45b68116ba71a01ea, type: 3}
-      propertyPath: jumpSpeed
-      value: 8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9a8ba1347b80da45b68116ba71a01ea, type: 3}
 --- !u!1001 &6356214689833350963
@@ -40861,25 +40833,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1922915176}
     m_Modifications:
-    - target: {fileID: 1010731397, guid: e44175c5977bf1a429671349eca540c5, type: 3}
-      propertyPath: m_GravityScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1010731397, guid: e44175c5977bf1a429671349eca540c5, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1010731402, guid: e44175c5977bf1a429671349eca540c5, type: 3}
-      propertyPath: runSpeed
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 6356214690026616106, guid: e44175c5977bf1a429671349eca540c5, type: 3}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6356214690026616106, guid: e44175c5977bf1a429671349eca540c5, type: 3}
-      propertyPath: m_LocalScale.x
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6356214690026616106, guid: e44175c5977bf1a429671349eca540c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40925,10 +40881,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZaPleyaBlue
       objectReference: {fileID: 0}
-    - target: {fileID: 6356214690026616107, guid: e44175c5977bf1a429671349eca540c5, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e44175c5977bf1a429671349eca540c5, type: 3}
 --- !u!1001 &6511806743903176550
@@ -40938,21 +40890,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1922915176}
     m_Modifications:
-    - target: {fileID: 876940888, guid: 7a29cec739879734291b9eb3cdaa8307, type: 3}
-      propertyPath: runSpeed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1504474421004946139, guid: 7a29cec739879734291b9eb3cdaa8307, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6511806743990484504, guid: 7a29cec739879734291b9eb3cdaa8307, type: 3}
       propertyPath: m_RootOrder
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6511806743990484504, guid: 7a29cec739879734291b9eb3cdaa8307, type: 3}
-      propertyPath: m_LocalScale.x
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6511806743990484504, guid: 7a29cec739879734291b9eb3cdaa8307, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40998,10 +40938,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZaPleyaPinky
       objectReference: {fileID: 0}
-    - target: {fileID: 6511806743990484507, guid: 7a29cec739879734291b9eb3cdaa8307, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a29cec739879734291b9eb3cdaa8307, type: 3}
 --- !u!1001 &7499332408728553921
@@ -41011,21 +40947,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1922915176}
     m_Modifications:
-    - target: {fileID: 1007122243, guid: 351e07bb73e2d52458435242329be511, type: 3}
-      propertyPath: runSpeed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 444660216533145673, guid: 351e07bb73e2d52458435242329be511, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7499332408586391734, guid: 351e07bb73e2d52458435242329be511, type: 3}
       propertyPath: m_Name
       value: ZaPleyaMasky
-      objectReference: {fileID: 0}
-    - target: {fileID: 7499332408586391734, guid: 351e07bb73e2d52458435242329be511, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7499332408586391737, guid: 351e07bb73e2d52458435242329be511, type: 3}
       propertyPath: m_RootOrder
@@ -41080,18 +41004,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1922915176}
     m_Modifications:
-    - target: {fileID: -7785806996456630130, guid: 0c02037d31fa00141916df54920dc241, type: 3}
-      propertyPath: m_GravityScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -7785806996456630130, guid: 0c02037d31fa00141916df54920dc241, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1978912031, guid: 0c02037d31fa00141916df54920dc241, type: 3}
-      propertyPath: runSpeed
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 7749311360278332918, guid: 0c02037d31fa00141916df54920dc241, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -41139,10 +41051,6 @@ PrefabInstance:
     - target: {fileID: 7749311360278332919, guid: 0c02037d31fa00141916df54920dc241, type: 3}
       propertyPath: m_Name
       value: ZaPleyaFroggy
-      objectReference: {fileID: 0}
-    - target: {fileID: 7749311360278332919, guid: 0c02037d31fa00141916df54920dc241, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c02037d31fa00141916df54920dc241, type: 3}
