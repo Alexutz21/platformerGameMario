@@ -9,6 +9,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] float runSpeed = 3f;
     [SerializeField] float jumpSpeed = 5f;
     Animator runAnimator;
+    Animator jumpAnimator;
     Rigidbody2D myRigidBody;
     CapsuleCollider2D myCapsuleCollider;
 
@@ -16,6 +17,7 @@ public class PlayerMove : MonoBehaviour
     {
         myRigidBody = GetComponent<Rigidbody2D>();
         runAnimator = GetComponent<Animator>();
+        jumpAnimator = GetComponent<Animator>();
         myCapsuleCollider = GetComponent<CapsuleCollider2D>();
     }
 
@@ -36,10 +38,22 @@ public class PlayerMove : MonoBehaviour
         {
             return;
         }
+
         if (value.isPressed)
         {
             myRigidBody.velocity += new Vector2(0f, jumpSpeed);
+
         }
+        // Jump Animation
+        // if (!myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        // {
+        //     runAnimator.SetBool("isJumping", true);
+        // }
+        // else
+        // {
+        //     runAnimator.SetBool("isJumping", false);
+        // }
+
     }
     void Run()
     {
@@ -55,6 +69,8 @@ public class PlayerMove : MonoBehaviour
         {
             runAnimator.SetBool("isRunning", false);
         }
+
+
 
     }
 
