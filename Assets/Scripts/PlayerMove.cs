@@ -5,26 +5,34 @@ using UnityEngine.InputSystem;
 
 public class PlayerMove : MonoBehaviour
 {
-    Vector2 moveInput;
     [SerializeField] float runSpeed = 3f;
     [SerializeField] float jumpSpeed = 5f;
+    [SerializeField] float climbSpeed = 2f;
+
+    Vector2 moveInput;
     Animator runAnimator;
     Animator jumpAnimator;
+    Animator climbAnimator;
+
     Rigidbody2D myRigidBody;
     CapsuleCollider2D myCapsuleCollider;
+    float gravityScaleAtStart;
 
     void Start()
     {
         myRigidBody = GetComponent<Rigidbody2D>();
         runAnimator = GetComponent<Animator>();
         jumpAnimator = GetComponent<Animator>();
+        climbAnimator = GetComponent<Animator>();
         myCapsuleCollider = GetComponent<CapsuleCollider2D>();
+        gravityScaleAtStart = myRigidBody.gravityScale;
     }
 
     void Update()
     {
         Run();
         FlipSprite();
+        ClimbLadder();
     }
     void OnMove(InputValue value)
     {
@@ -83,4 +91,31 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
+    void ClimbLadder()
+    {
+        if (!myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Climbing")))
+        {
+            myRigidBody.gravityScale = gravityScaleAtStart;
+            runAnimator.SetBool("isClimbing", false);
+            return;
+        }
+        Vector2 climbVelocity = new Vector2(myRigidBody.velocity.x, moveInput.y * climbSpeed);
+        myRigidBody.velocity = climbVelocity;
+        myRigidBody.gravityScale = 0f;
+
+        bool playerIsClimbingOrNot = Mathf.Abs(myRigidBody.velocity.y) > Mathf.Epsilon;
+        runAnimator.SetBool("isClimbing", playerIsClimbingOrNot);
+        // or we can do it like this
+        // bool playerIsClimbingOrNot = Mathf.Abs(myRigidBody.velocity.x) > Mathf.Epsilon;
+        // if (playerIsClimbingOrNot)
+        // { 
+        //   runAnimator.SetBool("isRunning", true); 
+        // }
+        // else
+        // { 
+        //   runAnimator.SetBool("isRunning", false); 
+        // }
+
+
+    }
 }
