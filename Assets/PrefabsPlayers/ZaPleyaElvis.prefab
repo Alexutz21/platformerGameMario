@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1443403165}
   - component: {fileID: 1443403167}
   - component: {fileID: 4749559348890154313}
+  - component: {fileID: 1443403173}
   m_Layer: 8
   m_Name: ZaPleyaElvis
   m_TagString: Player
@@ -122,8 +123,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.030153489, y: -0.06482124}
-  m_Size: {x: 0.63531107, y: 0.8882409}
+  m_Offset: {x: -0.048236143, y: -0.043962035}
+  m_Size: {x: 0.6766822, y: 0.9299593}
   m_Direction: 0
 --- !u!50 &1443403165
 Rigidbody2D:
@@ -191,3 +192,29 @@ MonoBehaviour:
   runSpeed: 5
   jumpSpeed: 14
   climbSpeed: 3.5
+--- !u!61 &1443403173
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459225456672772635}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: ec3e703a21b72ba41aaf0decf6676db0, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.04223781, y: -0.44500515}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5468872, y: 0.1099897}
+  m_EdgeRadius: 0
