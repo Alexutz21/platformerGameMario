@@ -15,7 +15,8 @@ public class PlayerMove : MonoBehaviour
     Animator climbAnimator;
 
     Rigidbody2D myRigidBody;
-    CapsuleCollider2D myCapsuleCollider;
+    CapsuleCollider2D myBodyCollider;
+    BoxCollider2D myFeetCollider;
     float gravityScaleAtStart;
 
     void Start()
@@ -24,7 +25,8 @@ public class PlayerMove : MonoBehaviour
         runAnimator = GetComponent<Animator>();
         jumpAnimator = GetComponent<Animator>();
         climbAnimator = GetComponent<Animator>();
-        myCapsuleCollider = GetComponent<CapsuleCollider2D>();
+        myBodyCollider = GetComponent<CapsuleCollider2D>();
+        myFeetCollider = GetComponent<BoxCollider2D>();
         gravityScaleAtStart = myRigidBody.gravityScale;
     }
 
@@ -42,7 +44,7 @@ public class PlayerMove : MonoBehaviour
 
     void OnJump(InputValue value)
     {
-        if (!myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        if (!myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             return;
         }
@@ -53,7 +55,7 @@ public class PlayerMove : MonoBehaviour
 
         }
         // Jump Animation
-        // if (!myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        // if (!myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
         // {
         //     runAnimator.SetBool("isJumping", true);
         // }
@@ -77,9 +79,6 @@ public class PlayerMove : MonoBehaviour
         {
             runAnimator.SetBool("isRunning", false);
         }
-
-
-
     }
 
     void FlipSprite()
@@ -93,7 +92,7 @@ public class PlayerMove : MonoBehaviour
 
     void ClimbLadder()
     {
-        if (!myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Climbing")))
+        if (!myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Climbing")))
         {
             myRigidBody.gravityScale = gravityScaleAtStart;
             runAnimator.SetBool("isClimbing", false);

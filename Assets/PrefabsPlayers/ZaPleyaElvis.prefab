@@ -15,10 +15,10 @@ GameObject:
   - component: {fileID: 1443403165}
   - component: {fileID: 1443403167}
   - component: {fileID: 4749559348890154313}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ZaPleyaElvis
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_TagString: Player
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1459225456672772635}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -44.1, y: -31.18, z: 0}
-  m_LocalScale: {x: 1, y: 1.1311, z: 1}
+  m_LocalScale: {x: 0.9702, y: 1.0716043, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1689057441
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -718574693, guid: ddf4f379ee71c7045a0a2499f9678ff3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -118,12 +118,12 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 1459225456672772635}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ec3e703a21b72ba41aaf0decf6676db0, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.042476654, y: -0.06482124}
-  m_Size: {x: 0.50388336, y: 0.8882408}
+  m_Offset: {x: -0.030153489, y: -0.06482124}
+  m_Size: {x: 0.63531107, y: 0.8882409}
   m_Direction: 0
 --- !u!50 &1443403165
 Rigidbody2D:
@@ -140,7 +140,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1.5
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -188,5 +188,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf51946c1a461fc428f86e21874fbdca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSpeed: 3
-  jumpSpeed: 8
+  runSpeed: 5
+  jumpSpeed: 14
+  climbSpeed: 3.5
