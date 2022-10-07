@@ -8,11 +8,13 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] float runSpeed = 3f;
     [SerializeField] float jumpSpeed = 5f;
     [SerializeField] float climbSpeed = 2f;
+    [SerializeField] Vector2 deathKick = new Vector2(10f, 10f);
 
     Vector2 moveInput;
     Animator runAnimator;
     Animator jumpAnimator;
     Animator climbAnimator;
+    Animator deathAnimator;
 
     Rigidbody2D myRigidBody;
     CapsuleCollider2D myBodyCollider;
@@ -29,6 +31,7 @@ public class PlayerMove : MonoBehaviour
         climbAnimator = GetComponent<Animator>();
         myBodyCollider = GetComponent<CapsuleCollider2D>();
         myFeetCollider = GetComponent<BoxCollider2D>();
+        deathAnimator = GetComponent<Animator>();
         gravityScaleAtStart = myRigidBody.gravityScale;
     }
 
@@ -126,6 +129,8 @@ public class PlayerMove : MonoBehaviour
         if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemies")))
         {
             isAlive = false;
+            deathAnimator.SetTrigger("Dying");
+            myRigidBody.velocity = deathKick;
         }
     }
 }
