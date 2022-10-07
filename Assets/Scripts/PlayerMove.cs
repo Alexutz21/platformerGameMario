@@ -126,11 +126,13 @@ public class PlayerMove : MonoBehaviour
     }
     void Die()
     {
-        if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemies")))
+        if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemies"))
+        || myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Hazards")))
         {
             isAlive = false;
             deathAnimator.SetTrigger("Dying");
             myRigidBody.velocity = deathKick;
         }
+
     }
 }
