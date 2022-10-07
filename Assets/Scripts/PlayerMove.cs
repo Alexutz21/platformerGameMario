@@ -9,6 +9,8 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] float jumpSpeed = 5f;
     [SerializeField] float climbSpeed = 2f;
     [SerializeField] Vector2 deathKick = new Vector2(10f, 10f);
+    [SerializeField] GameObject bullet;
+    [SerializeField] Transform gun;
 
     Vector2 moveInput;
     Animator runAnimator;
@@ -90,6 +92,17 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
+    void OnFire(InputValue value)
+    {
+        if (!isAlive)
+        {
+            Instantiate(bullet, gun.position, transform.rotation);
+        }
+    }
+    void OnFire()
+    {
+
+    }
     void FlipSprite()
     {
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidBody.velocity.x) > Mathf.Epsilon;
