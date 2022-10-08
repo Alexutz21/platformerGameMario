@@ -17,6 +17,7 @@ public class PlayerMove : MonoBehaviour
     Animator jumpAnimator;
     Animator climbAnimator;
     Animator deathAnimator;
+    Animator shootAnimator;
 
     Rigidbody2D myRigidBody;
     CapsuleCollider2D myBodyCollider;
@@ -34,6 +35,7 @@ public class PlayerMove : MonoBehaviour
         myBodyCollider = GetComponent<CapsuleCollider2D>();
         myFeetCollider = GetComponent<BoxCollider2D>();
         deathAnimator = GetComponent<Animator>();
+        shootAnimator = GetComponent<Animator>();
         gravityScaleAtStart = myRigidBody.gravityScale;
     }
 
@@ -94,15 +96,10 @@ public class PlayerMove : MonoBehaviour
 
     void OnFire(InputValue value)
     {
-        if (!isAlive)
-        {
-            Instantiate(bullet, gun.position, transform.rotation);
-        }
+        if (!isAlive) { return; }
+        Instantiate(bullet, gun.position, transform.rotation);
     }
-    void OnFire()
-    {
 
-    }
     void FlipSprite()
     {
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidBody.velocity.x) > Mathf.Epsilon;
