@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] Vector2 deathKick = new Vector2(10f, 10f);
     [SerializeField] GameObject bullet;
     [SerializeField] Transform gun;
+    [SerializeField] float sceneDelayReload = 5f;
 
     Vector2 moveInput;
     Animator runAnimator;
@@ -142,7 +144,11 @@ public class PlayerMove : MonoBehaviour
             isAlive = false;
             deathAnimator.SetTrigger("Dying");
             myRigidBody.velocity = deathKick;
+            Invoke("ReloadScene", sceneDelayReload);
         }
-
+    }
+    void ReloadScene()
+    {
+        SceneManager.LoadScene(0);
     }
 }
