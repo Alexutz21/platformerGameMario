@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 13290327}
   - component: {fileID: 13290329}
   - component: {fileID: 13290328}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,8 +214,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 106863318}
   - component: {fileID: 106863320}
   - component: {fileID: 106863319}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,8 +319,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 238262235}
   - component: {fileID: 238262237}
   - component: {fileID: 238262236}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -424,8 +424,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -492,7 +492,7 @@ GameObject:
   - component: {fileID: 461990129}
   - component: {fileID: 461990131}
   - component: {fileID: 461990130}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -572,8 +572,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -607,7 +607,7 @@ GameObject:
   - component: {fileID: 483179331}
   - component: {fileID: 483179333}
   - component: {fileID: 483179332}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -687,8 +687,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -712,7 +712,7 @@ GameObject:
   - component: {fileID: 516419241}
   - component: {fileID: 516419243}
   - component: {fileID: 516419242}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -792,8 +792,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -817,7 +817,7 @@ GameObject:
   - component: {fileID: 538102412}
   - component: {fileID: 538102414}
   - component: {fileID: 538102413}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -897,8 +897,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -922,7 +922,7 @@ GameObject:
   - component: {fileID: 543598894}
   - component: {fileID: 543598896}
   - component: {fileID: 543598895}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1002,8 +1002,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1883,7 +1883,7 @@ GameObject:
   - component: {fileID: 762953625}
   - component: {fileID: 762953627}
   - component: {fileID: 762953626}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1963,8 +1963,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1993,7 +1993,7 @@ GameObject:
   - component: {fileID: 784087109}
   - component: {fileID: 784087111}
   - component: {fileID: 784087110}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2073,8 +2073,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2098,7 +2098,7 @@ GameObject:
   - component: {fileID: 1008985438}
   - component: {fileID: 1008985440}
   - component: {fileID: 1008985439}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2178,8 +2178,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -21895,7 +21895,7 @@ GameObject:
   - component: {fileID: 1030617377}
   - component: {fileID: 1030617379}
   - component: {fileID: 1030617378}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21910,7 +21910,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030617376}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.02, y: -4.67, z: 0.18274271}
+  m_LocalPosition: {x: 16.88, y: -4.67, z: 0.18274271}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21975,8 +21975,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -22000,7 +22000,7 @@ GameObject:
   - component: {fileID: 1038071006}
   - component: {fileID: 1038071008}
   - component: {fileID: 1038071007}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22080,8 +22080,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -22566,7 +22566,7 @@ GameObject:
   - component: {fileID: 1081339599}
   - component: {fileID: 1081339601}
   - component: {fileID: 1081339600}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22646,8 +22646,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -23569,7 +23569,7 @@ GameObject:
   - component: {fileID: 1390965871}
   - component: {fileID: 1390965873}
   - component: {fileID: 1390965872}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23649,8 +23649,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -23743,7 +23743,7 @@ GameObject:
   - component: {fileID: 1578336285}
   - component: {fileID: 1578336287}
   - component: {fileID: 1578336286}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23823,8 +23823,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -23848,7 +23848,7 @@ GameObject:
   - component: {fileID: 1656215048}
   - component: {fileID: 1656215050}
   - component: {fileID: 1656215049}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23928,8 +23928,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -23953,7 +23953,7 @@ GameObject:
   - component: {fileID: 1856883498}
   - component: {fileID: 1856883500}
   - component: {fileID: 1856883499}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24033,8 +24033,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -24058,7 +24058,7 @@ GameObject:
   - component: {fileID: 1865019072}
   - component: {fileID: 1865019074}
   - component: {fileID: 1865019073}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24138,8 +24138,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -24163,7 +24163,7 @@ GameObject:
   - component: {fileID: 1918671058}
   - component: {fileID: 1918671060}
   - component: {fileID: 1918671059}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24243,8 +24243,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -24307,6 +24307,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1962845403 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6079266997861205542, guid: ca081a27c1faeb8499b3c802fc955c91, type: 3}
+  m_PrefabInstance: {fileID: 6079266998166780953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1962845406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962845403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30516780adf5584782376aa69f67e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1962845407
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962845403}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0056238174}
+  serializedVersion: 2
+  m_Radius: 0.2581854
 --- !u!1 &2032495003
 GameObject:
   m_ObjectHideFlags: 0
@@ -24318,7 +24351,7 @@ GameObject:
   - component: {fileID: 2032495004}
   - component: {fileID: 2032495006}
   - component: {fileID: 2032495005}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24398,8 +24431,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -61820,7 +61853,7 @@ GameObject:
   - component: {fileID: 2116160396}
   - component: {fileID: 2116160398}
   - component: {fileID: 2116160397}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: Coins (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61900,8 +61933,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 892461235
-  m_SortingLayer: 3
+  m_SortingLayerID: 1616859885
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1905707130, guid: 5ef4fed9d3b81dd45a8e69e1624fd1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -62368,6 +62401,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6079266997861205593, guid: ca081a27c1faeb8499b3c802fc955c91, type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6079266997861205593, guid: ca081a27c1faeb8499b3c802fc955c91, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1616859885
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca081a27c1faeb8499b3c802fc955c91, type: 3}
 --- !u!1001 &6356214689833350963
@@ -62719,6 +62760,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8425878654875210520, guid: 6a0920c117dbd4540898f91b897dcb0e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -61.615524
+      objectReference: {fileID: 0}
+    - target: {fileID: 8425878654875210520, guid: 6a0920c117dbd4540898f91b897dcb0e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -27.489862
+      objectReference: {fileID: 0}
+    - target: {fileID: 8425878654875210727, guid: 6a0920c117dbd4540898f91b897dcb0e, type: 3}
+      propertyPath: orthographic size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8425878654947561274, guid: 6a0920c117dbd4540898f91b897dcb0e, type: 3}
       propertyPath: m_BoundingShape2D
       value: 
