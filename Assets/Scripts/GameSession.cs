@@ -24,16 +24,17 @@ public class GameSession : MonoBehaviour
     {
         if (PlayerLives > 1)
         {
-            TakeLife();
+            Invoke("TakeLife", 3f);
         }
         else
         {
-            ResetGameSession();
+            Invoke("ResetGaneSession", 3f);
         }
     }
     void TakeLife()
     {
         PlayerLives--;
+
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
     }

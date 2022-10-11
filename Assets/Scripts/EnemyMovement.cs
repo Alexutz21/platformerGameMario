@@ -6,6 +6,7 @@ public class EnemyMovement : MonoBehaviour
 {
     Rigidbody2D enemyRigidBody;
     [SerializeField] float enemyMoveSpeed = 1f;
+    [SerializeField] AudioClip enemyCrashSFX;
     void Start()
     {
         enemyRigidBody = GetComponent<Rigidbody2D>();
@@ -20,6 +21,13 @@ public class EnemyMovement : MonoBehaviour
     {
         enemyMoveSpeed = -enemyMoveSpeed;
         FlipEnemyFacing();
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            AudioSource.PlayClipAtPoint(enemyCrashSFX, Camera.main.transform.position);
+        }
     }
     void FlipEnemyFacing()
     {

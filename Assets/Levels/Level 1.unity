@@ -23400,7 +23400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c30516780adf5584782376aa69f67e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinPickupSFX: {fileID: 0}
+  coinPickupSFX: {fileID: 8300000, guid: 1d3b29ef39e05c0429fc0e80b1421e5c, type: 3}
 --- !u!58 &1962845407
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -61282,6 +61282,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1552355657}
     m_Modifications:
+    - target: {fileID: 1962845406, guid: ca081a27c1faeb8499b3c802fc955c91, type: 3}
+      propertyPath: coinPickupSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 1d3b29ef39e05c0429fc0e80b1421e5c, type: 3}
+    - target: {fileID: 2254664608642767028, guid: ca081a27c1faeb8499b3c802fc955c91, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1d3b29ef39e05c0429fc0e80b1421e5c, type: 3}
     - target: {fileID: 6079266997861205542, guid: ca081a27c1faeb8499b3c802fc955c91, type: 3}
       propertyPath: m_Name
       value: Coins
