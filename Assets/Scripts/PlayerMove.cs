@@ -145,10 +145,11 @@ public class PlayerMove : MonoBehaviour
             deathAnimator.SetTrigger("Dying");
             myRigidBody.velocity = deathKick;
             Invoke("ReloadScene", sceneDelayReload);
+            FindObjectOfType<GameSession>().ProcessPlayerDeath();
         }
     }
     void ReloadScene()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
