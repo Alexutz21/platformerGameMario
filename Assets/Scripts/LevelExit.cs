@@ -23,9 +23,9 @@ public class LevelExit : MonoBehaviour
         {
             nextSceneIndex = 0;
         }
+        FindObjectOfType<ScenePersist>().ResetScenePersist();
         SceneManager.LoadScene(nextSceneIndex);
     }
-
     //Or we could do it like this
     // void OnTriggerEnter2D(Collider2D other)
     // {
@@ -35,5 +35,4 @@ public class LevelExit : MonoBehaviour
     // {
     //     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     // }
-
 }

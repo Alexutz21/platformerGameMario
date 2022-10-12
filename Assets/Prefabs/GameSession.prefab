@@ -168,7 +168,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 99999
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84865af16aa62c248bfb86b3e20b14aa, type: 2}
   m_sharedMaterial: {fileID: 4775306950308360291, guid: 84865af16aa62c248bfb86b3e20b14aa, type: 2}
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 99
+  m_text: 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 84865af16aa62c248bfb86b3e20b14aa, type: 2}
   m_sharedMaterial: {fileID: 4775306950308360291, guid: 84865af16aa62c248bfb86b3e20b14aa, type: 2}
@@ -417,6 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde164704cdbaf6419420dde6f82aebc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerLives: 3
-  liveText: {fileID: 1075896001}
+  playerLives: 3
+  score: 0
+  livesText: {fileID: 1075896001}
   scoreText: {fileID: 225486587}

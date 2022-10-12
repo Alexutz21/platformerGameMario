@@ -63,7 +63,6 @@ public class PlayerMove : MonoBehaviour
         {
             return;
         }
-
         if (value.isPressed)
         {
             myRigidBody.velocity += new Vector2(0f, jumpSpeed);
@@ -78,8 +77,8 @@ public class PlayerMove : MonoBehaviour
         // {
         //     runAnimator.SetBool("isJumping", false);
         // }
-
     }
+
     void Run()
     {
         Vector2 playerVelocity = new Vector2(moveInput.x * runSpeed, myRigidBody.velocity.y);
