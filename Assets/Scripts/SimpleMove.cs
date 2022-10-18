@@ -5,6 +5,7 @@ using UnityEngine;
 public class SimpleMove : MonoBehaviour
 {
     public float speed = 5f;
+    public float jumpSpeed = 5f;
     private float direction = 0f;
     private Rigidbody2D player;
 
@@ -29,6 +30,11 @@ public class SimpleMove : MonoBehaviour
         else
         {
             player.velocity = new Vector2(0, player.velocity.y);
+        }
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            player.velocity = new Vector2(player.velocity.x, jumpSpeed);
         }
     }
 }
