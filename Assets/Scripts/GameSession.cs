@@ -13,7 +13,6 @@ public class GameSession : MonoBehaviour
     [SerializeField] TextMeshProUGUI livesText;
     [SerializeField] TextMeshProUGUI scoreText;
 
-
     void Awake()
     {
         int numGameSessions = FindObjectsOfType<GameSession>().Length;
@@ -38,7 +37,6 @@ public class GameSession : MonoBehaviour
         if (playerLives > 1)
         {
             Invoke("TakeLife", 2f);
-
         }
         else
         {

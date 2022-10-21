@@ -6,16 +6,21 @@ using UnityEngine.SceneManagement;
 public class LevelExit : MonoBehaviour
 {
     [SerializeField] float levelLoadDelay = 1f;
+    //[SerializeField] GameObject completeLevelUi;
+
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
+            //CompleteLevel();
             StartCoroutine(LoadNextLevel());
+            //Invoke("NextLevel", 2f);
         }
-
     }
     IEnumerator LoadNextLevel()
     {
+
         yield return new WaitForSecondsRealtime(levelLoadDelay);
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         int nextSceneIndex = currentSceneIndex + 1;
@@ -23,9 +28,11 @@ public class LevelExit : MonoBehaviour
         {
             nextSceneIndex = 0;
         }
+
         FindObjectOfType<ScenePersist>().ResetScenePersist();
         SceneManager.LoadScene(nextSceneIndex);
     }
+
     //Or we could do it like this
     // void OnTriggerEnter2D(Collider2D other)
     // {
@@ -35,4 +42,10 @@ public class LevelExit : MonoBehaviour
     // {
     //     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     // }
+
+    // public void CompleteLevel()
+    // {
+    //     completeLevelUi.SetActive(true);
+    // }
+
 }
