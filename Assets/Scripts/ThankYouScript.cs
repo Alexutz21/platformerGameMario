@@ -5,8 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class ThankYouScript : MonoBehaviour
 {
-    public void MainMenu()
+    void MainMenu()
     {
         SceneManager.LoadScene(0);
+    }
+    void PlayAgain()
+    {
+        SceneManager.LoadScene(1);
     }
 }
